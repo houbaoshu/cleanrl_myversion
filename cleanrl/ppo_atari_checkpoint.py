@@ -42,7 +42,7 @@ class Args:
     """whether to capture videos of the agent performances (check out `videos` folder)"""
     checkpoint_path: str = "checkpoints" # 添加检查点和自动保存
     """where to store/load checkpoints"""
-    save_interval: int = 100000
+    save_interval: int = 10240
     """save checkpoint every `save_interval` global steps"""
 
     # Algorithm specific arguments
